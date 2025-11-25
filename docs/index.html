@@ -107,6 +107,26 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">BuildDocker
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tạo 1 image nginx tối giản
+Kiểm tra các phụ thuộc mà chương trình cần dùng ldd tên chương trình
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-25 11:13:31 +0700 +07'>November 25, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to BuildDocker" href="http://localhost:1313/post/builddocker/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">BuildDebianOS
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
@@ -117,10 +137,9 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction Live build Setup Host sudo apt update sudo apt install live-build live-tools debootstrap
-Bootrap mkdir mydebian cd mydebian lb config –distribution bookworm –architecture amd64 –debian-installer live –bootappend-live “boot=live components username=dev”
-Setup packet echo “vim htop curl” » config/package-lists/custom.list.chroot
-</p>
+    <p>Hướng dẫn nhanh cách tạo một bản hệ điều hành Ubuntu tùy chỉnh. Khi cần tạo một hệ điều hành Ubuntu tối giản với các gói phần mềm cần thiết có thể khởi động từ mạng hoặc qua usb.
+Live build Công cụ cho phép tạo khung hệ điều hành dựa trên Debian, Ubuntu. Cho phép thêm các gói phần mềm tùy chỉnh từ kho phần mềm APT. Đóng gói thành một hệ điều hành đầy đủ có thể khởi động được.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2025-11-08 14:21:22 +0700 +07'>November 8, 2025</span></footer>
   <a class="entry-link" aria-label="post link to BuildDebianOS" href="http://localhost:1313/post/builddebianos/"></a>

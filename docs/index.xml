@@ -6,28 +6,29 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2025 14:21:22 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 11:13:31 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BuildDocker</title>
+      <link>http://localhost:1313/post/builddocker/</link>
+      <pubDate>Tue, 25 Nov 2025 11:13:31 +0700</pubDate>
+      <guid>http://localhost:1313/post/builddocker/</guid>
+      <description>&lt;p&gt;Tạo 1 image nginx tối giản&lt;/p&gt;
+&lt;h2 id=&#34;kiểm-tra-các-phụ-thuộc-mà-chương-trình-cần-dùng&#34;&gt;Kiểm tra các phụ thuộc mà chương trình cần dùng&lt;/h2&gt;
+&lt;p&gt;ldd tên chương trình&lt;/p&gt;</description>
+    </item>
     <item>
       <title>BuildDebianOS</title>
       <link>http://localhost:1313/post/builddebianos/</link>
       <pubDate>Sat, 08 Nov 2025 14:21:22 +0700</pubDate>
       <guid>http://localhost:1313/post/builddebianos/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;hướng-dẫn-nhanh-cách-tạo-một-bản-hệ-điều-hành-ubuntu-tùy-chỉnh&#34;&gt;Hướng dẫn nhanh cách tạo một bản hệ điều hành Ubuntu tùy chỉnh.&lt;/h2&gt;
+&lt;p&gt;Khi cần tạo một hệ điều hành Ubuntu tối giản với các gói phần mềm cần thiết
+có thể khởi động từ mạng hoặc qua usb.&lt;/p&gt;
 &lt;h2 id=&#34;live-build&#34;&gt;Live build&lt;/h2&gt;
-&lt;h2 id=&#34;setup-host&#34;&gt;Setup Host&lt;/h2&gt;
-&lt;p&gt;sudo apt update
-sudo apt install live-build live-tools debootstrap&lt;/p&gt;
-&lt;h2 id=&#34;bootrap&#34;&gt;Bootrap&lt;/h2&gt;
-&lt;p&gt;mkdir mydebian
-cd mydebian
-lb config &lt;br&gt;
-&amp;ndash;distribution bookworm &lt;br&gt;
-&amp;ndash;architecture amd64 &lt;br&gt;
-&amp;ndash;debian-installer live &lt;br&gt;
-&amp;ndash;bootappend-live &amp;ldquo;boot=live components username=dev&amp;rdquo;&lt;/p&gt;
-&lt;h2 id=&#34;setup-packet&#34;&gt;Setup packet&lt;/h2&gt;
-&lt;p&gt;echo &amp;ldquo;vim htop curl&amp;rdquo; &amp;raquo; config/package-lists/custom.list.chroot&lt;/p&gt;</description>
+&lt;p&gt;Công cụ cho phép tạo khung hệ điều hành dựa trên Debian, Ubuntu.
+Cho phép thêm các gói phần mềm tùy chỉnh từ kho phần mềm APT.
+Đóng gói thành một hệ điều hành đầy đủ có thể khởi động được.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
