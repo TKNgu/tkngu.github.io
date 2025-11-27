@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tkngu.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'TKNgu'
 theme = 'PaperMod'
 publishDir = 'docs'

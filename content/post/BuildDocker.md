@@ -1,6 +1,6 @@
 +++
 date = '2025-11-25T11:13:31+07:00'
-draft = true
+draft = false 
 title = 'BuildDocker'
 +++
 

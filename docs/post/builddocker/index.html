@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>BuildDocker | My New Hugo Site</title>
+<meta name="robots" content="index, follow">
+<title>BuildDocker | TKNgu</title>
 <meta name="keywords" content="">
 <meta name="description" content="Tạo 1 image nginx tối giản
 Chuẩn bị một thư mục sạch để build
@@ -18,16 +18,16 @@ Theo hướng dẫn sẽ dùng môi trường build ubuntu và các phụ thuộ
 Tạo môi trường build trong docker ubuntu (Tại sao không ?) 
 $ docker run -it &ndash;rm &ndash;net host -v $PWD/:/root -w /root/ ubuntu bash">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/post/builddocker/">
+<link rel="canonical" href="https://tkngu.github.io/post/builddocker/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.a090830a421002426baafbd314e38f149d77b4c48a12ee9312700d770b27fb26.css" integrity="sha256-oJCDCkIQAkJrqvvTFOOPFJ13tMSKEu6TEnANdwsn&#43;yY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://tkngu.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://tkngu.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://tkngu.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://tkngu.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://tkngu.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/post/builddocker/">
+<link rel="alternate" hreflang="en" href="https://tkngu.github.io/post/builddocker/">
 <noscript>
     <style>
         #theme-toggle,
@@ -64,7 +64,81 @@ $ docker run -it &ndash;rm &ndash;net host -v $PWD/:/root -w /root/ ubuntu bash"
         }
 
     </style>
-</noscript>
+</noscript><meta property="og:url" content="https://tkngu.github.io/post/builddocker/">
+  <meta property="og:site_name" content="TKNgu">
+  <meta property="og:title" content="BuildDocker">
+  <meta property="og:description" content="Tạo 1 image nginx tối giản
+Chuẩn bị một thư mục sạch để build $ mkdir build $ cd build
+Lấy mã nguồn nginx $ git clone –depth=1 –branch=release-1.29.3 https://github.com/nginx/nginx.git
+Thực hiện build theo hướng dẫn Theo hướng dẫn sẽ dùng môi trường build ubuntu và các phụ thuộc: gcc make libpcre3-dev zlib1g-dev libssl-dev Tạo môi trường build trong docker ubuntu (Tại sao không ?) $ docker run -it –rm –net host -v $PWD/:/root -w /root/ ubuntu bash">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-11-25T11:13:31+07:00">
+    <meta property="article:modified_time" content="2025-11-25T11:13:31+07:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="BuildDocker">
+<meta name="twitter:description" content="Tạo 1 image nginx tối giản
+Chuẩn bị một thư mục sạch để build
+$ mkdir build 
+$ cd build
+Lấy mã nguồn nginx
+$ git clone &ndash;depth=1 &ndash;branch=release-1.29.3 https://github.com/nginx/nginx.git
+Thực hiện build theo hướng dẫn
+Theo hướng dẫn sẽ dùng môi trường build ubuntu và các phụ thuộc: gcc make libpcre3-dev zlib1g-dev libssl-dev
+Tạo môi trường build trong docker ubuntu (Tại sao không ?) 
+$ docker run -it &ndash;rm &ndash;net host -v $PWD/:/root -w /root/ ubuntu bash">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://tkngu.github.io/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "BuildDocker",
+      "item": "https://tkngu.github.io/post/builddocker/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "BuildDocker",
+  "name": "BuildDocker",
+  "description": "Tạo 1 image nginx tối giản\nChuẩn bị một thư mục sạch để build $ mkdir build $ cd build\nLấy mã nguồn nginx $ git clone \u0026ndash;depth=1 \u0026ndash;branch=release-1.29.3 https://github.com/nginx/nginx.git\nThực hiện build theo hướng dẫn Theo hướng dẫn sẽ dùng môi trường build ubuntu và các phụ thuộc: gcc make libpcre3-dev zlib1g-dev libssl-dev Tạo môi trường build trong docker ubuntu (Tại sao không ?) $ docker run -it \u0026ndash;rm \u0026ndash;net host -v $PWD/:/root -w /root/ ubuntu bash\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Tạo 1 image nginx tối giản\nChuẩn bị một thư mục sạch để build $ mkdir build $ cd build\nLấy mã nguồn nginx $ git clone –depth=1 –branch=release-1.29.3 https://github.com/nginx/nginx.git\nThực hiện build theo hướng dẫn Theo hướng dẫn sẽ dùng môi trường build ubuntu và các phụ thuộc: gcc make libpcre3-dev zlib1g-dev libssl-dev Tạo môi trường build trong docker ubuntu (Tại sao không ?) $ docker run -it –rm –net host -v $PWD/:/root -w /root/ ubuntu bash\nCài đặt các phụ thuộc $ apt update $ apt install gcc make libpcre3-dev zlib1g-dev libssl-dev\nBuild theo hướng dẫn: $ cd nginx $ auto/configure $ make $ make install $ /usr/local/nginx/sbin/nginx\nKiểm tra các phụ thuộc mà chương trình cần dùng $ ldd /usr/local/nginx/sbin/nginx\nlinux-vdso.so.1 (0x00007ffc73be1000) libcrypt.so.1 =\u003e /lib/x86_64-linux-gnu/libcrypt.so.1 (0x00007d7980d98000) libpcre.so.3 =\u003e /lib/x86_64-linux-gnu/libpcre.so.3 (0x00007d7980d20000) libz.so.1 =\u003e /lib/x86_64-linux-gnu/libz.so.1 (0x00007d7980d04000) libc.so.6 =\u003e /lib/x86_64-linux-gnu/libc.so.6 (0x00007d7980af2000) /lib64/ld-linux-x86-64.so.2 (0x00007d7980ec4000) Cần build các phụ thuộc: libz, libpcre, libcrypt, libc.\nBuild thư viện và tạo Dockerfile $ docker run -it –rm -v $PWD/:/root/ -w /root/ alpine:3.22.2 sh $ apk add –no-cache build-base\nThêm vào Dockerfile:\n# syntax=docker/dockerfile:1.7 ############################ # Stage 1: build tiny static HTTP server ############################ FROM alpine:3.22.2 AS nginx-server-builder WORKDIR /src RUN apk add --no-cache build-base cmake git Build libz: https://zlib.net/ $ wget https://zlib.net/zlib-1.3.1.tar.gz $ tar xvf zlib-1.3.1.tar.gz $ cmake -S zlib-1.3.1 -B build_zlib $ make -C build_zlib $ make -C build_zlib install \\\nThêm vào Dockerfile:\nRUN wget https://zlib.net/zlib-1.3.1.tar.gz \u0026\u0026 \\ tar xvf zlib-1.3.1.tar.gz \u0026\u0026 \\ cmake -S zlib-1.3.1 -B build_zlib \u0026\u0026 \\ make -C build_zlib \u0026\u0026 \\ make -C build_zlib install BUild libpcre: https://github.com/PCRE2Project/pcre2.git $ git clone –depth=1 –branch=pcre2-10.47 https://github.com/PCRE2Project/pcre2.git $ cmake -S pcre2 -B build_pcre2 $ make -C build_pcre2 $ make -C build_pcre2 install \\\nThêm vào Dockerfile:\nRUN git clone --depth=1 --branch=pcre2-10.47 https://github.com/PCRE2Project/pcre2.git \u0026\u0026 \\ cmake -S pcre2 -B build_pcre2 \u0026\u0026 \\ make -C build_pcre2 \u0026\u0026 \\ make -C build_pcre2 install Build libgpg-error $ wget https://gnupg.org/ftp/gcrypt/gpgrt/libgpg-error-1.56.tar.bz2 $ tar xvf libgpg-error-1.56.tar.bz2 $ cd libgpg-error-1.56 $ ./configure $ make $ make install $ cd - \\\nThêm vào Dockerfile:\nRUN wget https://gnupg.org/ftp/gcrypt/gpgrt/libgpg-error-1.56.tar.bz2 \u0026\u0026 \\ tar xvf libgpg-error-1.56.tar.bz2 \u0026\u0026 \\ cd libgpg-error-1.56 \u0026\u0026 \\ ./configure \u0026\u0026 \\ make \u0026\u0026\\ make install Build libcrypt $ wget https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.2.tar.bz2 $ tar xvf libgcrypt-1.11.2.tar.bz2 $ cd libgcrypt-1.11.2/ $ ./configure $ make $ make install $ cd -\nThêm vào Dockerfile:\nRUN wget https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.2.tar.bz2 \u0026\u0026 \\ tar xvf libgcrypt-1.11.2.tar.bz2 \u0026\u0026 \\ cd libgcrypt-1.11.2/ \u0026\u0026 \\ ./configure \u0026\u0026 \\ make \u0026\u0026 \\ make install Build nginx: $ git clone –depth=1 –branch=release-1.29.3 https://github.com/nginx/nginx.git $ cd nginx $ auto/configure –with-cc-opt=’-O2 -static’ –with-ld-opt=’-static' –with-cc-opt=’-O2 -g0 -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong –param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC' –with-ld-opt=’-Wl,-z,relro -Wl,-z,now' $ make $ make install $ /usr/local/nginx/sbin/nginx \\\nThêm vào Dockerfile:\nRUN git clone --depth=1 --branch=release-1.29.3 https://github.com/nginx/nginx.git \u0026\u0026 \\ cd nginx \u0026\u0026 \\ auto/configure \\ --with-zlib=/src/zlib-1.3.1 \\ --with-cc-opt='-O2 -g0 -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC' \\ --with-ld-opt='-Wl,-z,relro -Wl,-z,now' \u0026\u0026\\ make \u0026\u0026 \\ make install Tạo image cuối Thêm vào Dockerfile:\n############################ # Stage 2: final image ############################ FROM scratch COPY --from=nginx-server-builder /usr/local/nginx /usr/local/nginx RUN ls /ust/local/ ENTRYPOINT [\"/usr/local/nginx/sbin/nginx\"] # syntax=docker/dockerfile:1.7 ############################ # Stage 1: build tiny static HTTP server ############################ FROM alpine:3.22.2 AS nginx-server-builder WORKDIR /src RUN apk add --no-cache build-base cmake git RUN wget https://zlib.net/zlib-1.3.1.tar.gz \u0026\u0026 \\ tar xvf zlib-1.3.1.tar.gz \u0026\u0026 \\ cmake -S zlib-1.3.1 -B build_zlib \u0026\u0026 \\ make -C build_zlib \u0026\u0026 \\ make -C build_zlib install RUN git clone --depth=1 --branch=pcre2-10.47 https://github.com/PCRE2Project/pcre2.git \u0026\u0026 \\ cmake -S pcre2 -B build_pcre2 \u0026\u0026 \\ make -C build_pcre2 \u0026\u0026 \\ make -C build_pcre2 install RUN wget https://gnupg.org/ftp/gcrypt/gpgrt/libgpg-error-1.56.tar.bz2 \u0026\u0026 \\ tar xvf libgpg-error-1.56.tar.bz2 \u0026\u0026 \\ cd libgpg-error-1.56 \u0026\u0026 \\ ./configure \u0026\u0026 \\ make \u0026\u0026 \\ make install RUN wget https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.2.tar.bz2 \u0026\u0026 \\ tar xvf libgcrypt-1.11.2.tar.bz2 \u0026\u0026 \\ cd libgcrypt-1.11.2/ \u0026\u0026 \\ ./configure \u0026\u0026 \\ make \u0026\u0026 \\ make install RUN git clone --depth=1 --branch=release-1.29.3 https://github.com/nginx/nginx.git \u0026\u0026 \\ cd nginx \u0026\u0026 \\ auto/configure \\ --with-zlib=/src/zlib-1.3.1 \\ --with-cc-opt='-O2 -g0 -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector-strong --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC' \\ --with-ld-opt='-Wl,-z,relro -Wl,-z,now -static' \\ --prefix=/root/nginx \u0026\u0026\\ make \u0026\u0026 \\ make install ############################ # Stage 2: final image ############################ FROM scratch WORKDIR /root/ COPY --from=nginx-server-builder /etc/passwd /etc/passwd COPY --from=nginx-server-builder /etc/group /etc/group COPY --from=nginx-server-builder /root/nginx /root/nginx ENTRYPOINT [\"/root/nginx/sbin/nginx\", \"-g\", \"daemon off;\"] ",
+  "wordCount" : "680",
+  "inLanguage": "en",
+  "datePublished": "2025-11-25T11:13:31+07:00",
+  "dateModified": "2025-11-25T11:13:31+07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://tkngu.github.io/post/builddocker/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TKNgu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://tkngu.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -82,7 +156,7 @@ $ docker run -it &ndash;rm &ndash;net host -v $PWD/:/root -w /root/ ubuntu bash"
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="https://tkngu.github.io/" accesskey="h" title="TKNgu (Alt + H)">TKNgu</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -117,12 +191,6 @@ $ docker run -it &ndash;rm &ndash;net host -v $PWD/:/root -w /root/ ubuntu bash"
     
     <h1 class="post-title entry-hint-parent">
       BuildDocker
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h1>
     <div class="post-meta"><span title='2025-11-25 11:13:31 +0700 +07'>November 25, 2025</span>
 
@@ -322,7 +390,7 @@ ENTRYPOINT [&#34;/root/nginx/sbin/nginx&#34;, &#34;-g&#34;, &#34;daemon off;&#34
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2025 <a href="https://tkngu.github.io/">TKNgu</a></span> · 
 
     <span>
         Powered by

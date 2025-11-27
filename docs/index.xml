@@ -1,34 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>TKNgu</title>
+    <link>https://tkngu.github.io/</link>
+    <description>Recent content on TKNgu</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Nov 2025 11:13:31 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tkngu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BuildDocker</title>
-      <link>http://localhost:1313/post/builddocker/</link>
+      <link>https://tkngu.github.io/post/builddocker/</link>
       <pubDate>Tue, 25 Nov 2025 11:13:31 +0700</pubDate>
-      <guid>http://localhost:1313/post/builddocker/</guid>
+      <guid>https://tkngu.github.io/post/builddocker/</guid>
       <description>&lt;p&gt;Tạo 1 image nginx tối giản&lt;/p&gt;
-&lt;h2 id=&#34;kiểm-tra-các-phụ-thuộc-mà-chương-trình-cần-dùng&#34;&gt;Kiểm tra các phụ thuộc mà chương trình cần dùng&lt;/h2&gt;
-&lt;p&gt;ldd tên chương trình&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>BuildDebianOS</title>
-      <link>http://localhost:1313/post/builddebianos/</link>
-      <pubDate>Sat, 08 Nov 2025 14:21:22 +0700</pubDate>
-      <guid>http://localhost:1313/post/builddebianos/</guid>
-      <description>&lt;h2 id=&#34;hướng-dẫn-nhanh-cách-tạo-một-bản-hệ-điều-hành-ubuntu-tùy-chỉnh&#34;&gt;Hướng dẫn nhanh cách tạo một bản hệ điều hành Ubuntu tùy chỉnh.&lt;/h2&gt;
-&lt;p&gt;Khi cần tạo một hệ điều hành Ubuntu tối giản với các gói phần mềm cần thiết
-có thể khởi động từ mạng hoặc qua usb.&lt;/p&gt;
-&lt;h2 id=&#34;live-build&#34;&gt;Live build&lt;/h2&gt;
-&lt;p&gt;Công cụ cho phép tạo khung hệ điều hành dựa trên Debian, Ubuntu.
-Cho phép thêm các gói phần mềm tùy chỉnh từ kho phần mềm APT.
-Đóng gói thành một hệ điều hành đầy đủ có thể khởi động được.&lt;/p&gt;</description>
+&lt;h2 id=&#34;chuẩn-bị-một-thư-mục-sạch-để-build&#34;&gt;Chuẩn bị một thư mục sạch để build&lt;/h2&gt;
+&lt;p&gt;$ mkdir build &lt;br&gt;
+$ cd build&lt;/p&gt;
+&lt;h2 id=&#34;lấy-mã-nguồn-nginx&#34;&gt;Lấy mã nguồn nginx&lt;/h2&gt;
+&lt;p&gt;$ git clone &amp;ndash;depth=1 &amp;ndash;branch=release-1.29.3 &lt;a href=&#34;https://github.com/nginx/nginx.git&#34;&gt;https://github.com/nginx/nginx.git&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;thực-hiện-build-theo-hướng-dẫn&#34;&gt;Thực hiện build theo hướng dẫn&lt;/h2&gt;
+&lt;p&gt;Theo hướng dẫn sẽ dùng môi trường build ubuntu và các phụ thuộc: gcc make libpcre3-dev zlib1g-dev libssl-dev
+Tạo môi trường build trong docker ubuntu (Tại sao không ?) &lt;br&gt;
+$ docker run -it &amp;ndash;rm &amp;ndash;net host -v $PWD/:/root -w /root/ ubuntu bash&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
